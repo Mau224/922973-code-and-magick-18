@@ -54,6 +54,6 @@ window.renderStatistics = function (ctx, names, times) {
 
     drawRect(ctx, calc, columHeight + GAP * 2, BAR_WIDTH, (barHeight * times[i]) / maxTime, (names[i] === 'Вы') ? 'rgba(255, 0, 0, 1)' : 'hsl(240,' + Math.floor(100 * Math.random().toFixed(2)) + '%,' + Math.floor(100 * Math.random().toFixed(2)) + '%)');
 
-    drawText(ctx, Math.round(times[i]), calc, columHeight;
+    drawText(ctx, Math.round(times[i]), calc, columHeight);
   }
 };
